@@ -1,9 +1,9 @@
 name: yanqing19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
+    - cron: '16 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanqing19871010
         env:
-          nvgjt5: ${{ secrets.nvgjt5 }}
+          jh5: ${{ secrets.jh5 }}
         run: |
-          echo $nvgjt5 | jq -r .nlhv83699 | /bin/bash
-          echo $yx5556 | jq -r .n9061 | /bin/bash
-          echo $e360 | jq -r .v59634 | /bin/bash
-          echo $d0 | jq -r .zxc92 | /bin/bash
-          echo $y3865 | jq -r .yr915 | /bin/bash
-          echo $qzijm720 | jq -r .yqfvo2717 | /bin/bash
-          echo $t91890 | jq -r .jvaka7 | /bin/bash
-          echo $g8 | jq -r .vv608 | /bin/bash
-          echo $ungg0 | jq -r .fgvhs155 | /bin/bash
-          echo $kx17 | jq -r .f73122 | /bin/bash
-          echo $g3052 | jq -r .wyn50 | /bin/bash
-          echo $dv13477 | jq -r .f732 | /bin/bash
+          echo $jh5 | jq -r .xqkll82051 | /bin/bash
+          echo $c88 | jq -r .rdtl54937 | /bin/bash
+          echo $qm8 | jq -r .ectd9 | /bin/bash
+          echo $svtwg1 | jq -r .aduou75 | /bin/bash
 
